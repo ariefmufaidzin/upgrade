@@ -1,0 +1,6 @@
+$kind: http-request
+name: Reload Settings
+url: 'https://{{base_url}}/api/v2/settings/reload'
+method: GET
+headers:
+  Authorization: 'Bearer {{token}}'

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Elements - HTML</title>
+        <link rel="icon" type="image/x-icon" href="monkey.png">
+        <style>
+            header h1 {
+                background-color: grey;
+                text-align: center;
+                color: black;
+                margin: 0;
+                padding: 20px;
+            }
+            body {
+                margin: 0;
+            }
+            nav ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333333;
+            }
+            nav li {
+                float: left;
+            }
+            nav li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+            }
+            nav li a:hover {
+                background-color: #111111;
+            }
+            .kode-tag {
+                color: red;
+                font-weight: bold;
+            }
+            table, th, td {
+                border:1px solid black;
+                border-collapse: collapse;
+            }
+
+        </style>
+    </head>
+    <header>
+        <h1>Catatan Latihan HTML - Elements</h1>
+        </header>
+    <nav>        
+            <ul>
+                <li><a href="home.html"> Home </a></li>
+                <li><a href="form.html"> Form </a></li>
+                <li><a href="css.html"> CSS </a></li>
+                <li><a href="links.html"> Links </a></li>
+                <li><a href="images.html"> Images </a></li>
+                <li><a href="table.html"> Table </a></li>
+            </ul>        
+    </nav>
+    <body>
+        <br>
+        <h1>Elements</h1>
+        <table style="width: 45%;">
+            <tr>
+                <th style="background-color: #333; color: white;">Start Tag</th>
+                <th style="background-color: #333; color: white;">Element Content</th>
+                <th style="background-color: #333; color: white;">End Tag</th>
+            </tr>
+            <tr>
+                <td>&lt;h1&gt;</td>
+                <td>Heading 1</td>
+                <td>&lt;/h1&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;p&gt;</td>
+                <td>Paragraph</td>
+                <td>&lt;/p&gt;</td>
+            </tr>
+            <tr>
+                <td>&lt;br&gt;</td>
+                <td><i>none</i></td>
+                <td><i>none</i></td>
+            </tr>
+        </table> <br>
+        <p>
+            <b>Note:</b>Some HTML elements have no content (like the <code><span class="kode-tag">&lt;br&gt;</span></code> element). These elements are called empty elements. Empty elements do not have an end tag! <br>
+            For a complete list of all available HTML tags, visit our <a href="https://www.w3schools.com/tags/default.asp" target="_blank">HTML Tag Reference</a> page.
+            
+        </p><br>
+        <h1>Attributes</h1>
+        <table style="width: 60%;">
+            <tr>
+                <th style="background-color: #333; color: white;">Start Tag</th>
+                <th style="background-color: #333; color: white;">Attribute</th>
+                <th style="background-color: #333; color: white;">example</th>
+            </tr>
+            <tr>
+                <td>&lt;a&gt;</td>
+                <td>href</td>
+                <td><code>&lt;a href="https://www.w3schools.com"&gt;Visit W3Schools&lt;/a&gt;</code></td>
+            </tr>
+            <tr>
+                <td>&lt;img&gt;</td>
+                <td>src</td>
+                <td><code>&lt;img src="img_girl.jpg"&gt;</code></td>
+            </tr>
+            <tr>
+                <td>&lt;img&gt;</td>
+                <td>width and height</td>
+                <td><code>&lt;img src="img_girl.jpg" width="500" height="600"&gt;</code></td>
+            </tr>
+            <tr>
+                <td>&lt;img&gt;</td>
+                <td>alt</td>
+                <td><code>&lt;img src="img_girl.jpg" alt="A girl with a smile"&gt;</code></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>style</td>
+                <td><code>&lt;p style="color:red;"&gt;This is a red paragraph.&lt;/p&gt;</code></td>
+            </tr>
+        </table> <br>        
+        <p>
+            We Suggest: Always Use Lowercase Attributes and Always Quote Attribute Values<br>
+            Double quotes around attribute values are the most common in HTML, but single quotes can also be used. In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:
+        </p><br>
+        <h1>Styles</h1>
+        <table style="width: 45%;">
+            <tr>
+                <th style="background-color: #333; color: white;">Name</th>
+                <th style="background-color: #333; color: white;">example</th>
+            </tr>
+            <tr>
+                <td>background-color</td>
+                <td><code>&lt;body style="background-color:powderblue;"&gt;&lt;/body&gt;</code></td>
+            </tr>
+            <tr>
+                <td>color</td>
+                <td><code>&lt;h1 style="color:blue;"&gt;This is a blue heading.&lt;/h1&gt;</code></td>
+            </tr>
+            <tr>
+                <td>font-family</td>
+                <td><code>&lt;p style="font-family:verdana;"&gt;This is a paragraph.&lt;/p&gt;</code></td>
+            </tr>
+            <tr>
+                <td>font-size</td>
+                <td><code>&lt;p style="font-size:30px;"&gt;This is a paragraph.&lt;/p&gt;</code></td>   
+            </tr>
+            <tr>
+                <td>text-align</td>
+                <td><code>&lt;h1 style="text-align:center;"&gt;This is a heading.&lt;/h1&gt;</code></td>
+            </tr>
+        </table><br>
+
+    </body>
+
+</html>
